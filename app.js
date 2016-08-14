@@ -15,7 +15,7 @@ var cookieParser = require('cookie-parser');
 
 var client_id = 'c4a76c855c7146ffbd9f504995d0ebe8'; // Your client id
 var client_secret = '815d7864e93d470dbfd4ba517f09c4de'; // Your secret
-var redirect_uri = 'https://genreexplorer.herokuapp.com/callback'; // Your redirect uri
+var redirect_uri = 'http://localhost:8888/callback'; // Your redirect uri
 
 /**
  * Generates a random string containing numbers and letters
@@ -66,7 +66,7 @@ app.get('/callback', function (req, res) {
     var storedState = req.cookies ? req.cookies[stateKey] : null;
 
     if (state === null || state !== storedState) {
-        res.redirect('/#' +
+        res.redirect('/genreexplorer.html#' +
           querystring.stringify({
               error: 'state_mismatch'
           }));
@@ -103,13 +103,13 @@ app.get('/callback', function (req, res) {
                 });
 
                 // we can also pass the token to the browser to make requests from there
-                res.redirect('/?#' +
+                res.redirect('/genreexplorer.html?#' +
                   querystring.stringify({
                       access_token: access_token,
                       refresh_token: refresh_token
                   }));
             } else {
-                res.redirect('/#' +
+                res.redirect('/genreexplorer.html#' +
                   querystring.stringify({
                       error: 'invalid_token'
                   }));
