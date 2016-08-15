@@ -217,11 +217,15 @@ z            }
         $('#important').show();
         selectSong=true;
         document.getElementById("song/artist").innerHTML="Enter a song that you like:";
+        document.getElementById("songtext").placeholder="Which song do you like?";
+        $('#Extra-text').html("<h2>Enter a song down below!</h2>");
     });
     document.getElementById("artistMode").addEventListener('click', function(){
         $('#important').show();
         selectSong=false;
         document.getElementById("song/artist").innerHTML="Enter an artist that you like:";
+        document.getElementById("songtext").placeholder="Which artist do you like?";
+        $('#Extra-text').html("<h2>Enter an artist down below!<h2>");
     });
     results.addEventListener('click', function (e) {
 
