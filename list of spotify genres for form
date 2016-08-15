@@ -1,0 +1,251 @@
+<div class ="item" data-value="acoustic">Acoustic</div>
+
+<div class="item" data-value= "afrobeat">Afrobeat</div>
+
+<div class="item" data-value= "alt-rock">Alt Rock</div>
+
+<div class="item" data-value= "alternative">Alternative</div>
+
+<div class="item" data-value= "ambient">Ambient</div>
+
+<div class="item" data-value= "anime">Anime</div>
+
+<div class="item" data-value= "black-metal">Black Metal</div>
+
+<div class="item" data-value= "bluegrass">Bluegrass</div>
+
+<div class="item" data-value= "blues">Blues</div>
+
+<div class="item" data-value= "bossanova">Bossanova</div>
+
+<div class="item" data-value= "brazil">Brazil</div>
+
+<div class="item" data-value= "breakbeat">Breakbeat</div>
+
+<div class="item" data-value= "british">British</div>
+
+<div class="item" data-value= "cantopop">Cantopop</div>
+
+<div class="item" data-value= "chicago-house">Chicago House</div>
+
+<div class="item" data-value= "children">Children</div>
+
+<div class="item" data-value= "chill">Chill</div>
+
+<div class="item" data-value= "classical">Classical</div>
+
+<div class="item" data-value= "club">Club</div>
+
+<div class="item" data-value= "comedy">Comedy</div>
+
+<div class="item" data-value= "country">Country</div>
+
+<div class="item" data-value= "dance">Dance</div>
+
+<div class="item" data-value= "dancehall">Dancehall</div>
+
+<div class="item" data-value= "death-metal">Death Metal</div>
+
+<div class="item" data-value= "deep-house">Deep House</div>
+
+<div class="item" data-value= "detroit-techno">Detroit Techno</div>
+
+<div class="item" data-value= "disco">Disco</div>
+
+<div class="item" data-value= "disney">Disney</div>
+
+<div class="item" data-value= "drum-and-bass">Drum And Bass</div>
+
+<div class="item" data-value= "dub">Dub</div>
+
+<div class="item" data-value= "dubstep">Dubstep</div>
+
+<div class="item" data-value= "edm">Edm</div>
+
+<div class="item" data-value= "electro">Electro</div>
+
+<div class="item" data-value= "electronic">Electronic</div>
+
+<div class="item" data-value= "emo">Emo</div>
+
+<div class="item" data-value= "folk">Folk</div>
+
+<div class="item" data-value= "forro">Forro</div>
+
+<div class="item" data-value= "french">French</div>
+
+<div class="item" data-value= "funk">Funk</div>
+
+<div class="item" data-value= "garage">Garage</div>
+
+<div class="item" data-value= "german">German</div>
+
+<div class="item" data-value= "gospel">Gospel</div>
+
+<div class="item" data-value= "goth">Goth</div>
+
+<div class="item" data-value= "grindcore">Grindcore</div>
+
+<div class="item" data-value= "groove">Groove</div>
+
+<div class="item" data-value= "grunge">Grunge</div>
+
+<div class="item" data-value= "guitar">Guitar</div>
+
+<div class="item" data-value= "happy">Happy</div>
+
+<div class="item" data-value= "hard-rock">Hard Rock</div>
+
+<div class="item" data-value= "hardcore">Hardcore</div>
+
+<div class="item" data-value= "hardstyle">Hardstyle</div>
+
+<div class="item" data-value= "heavy-metal">Heavy Metal</div>
+
+<div class="item" data-value= "hip-hop">Hip Hop</div>
+
+<div class="item" data-value= "holidays">Holidays</div>
+
+<div class="item" data-value= "honky-tonk">Honky Tonk</div>
+
+<div class="item" data-value= "house">House</div>
+
+<div class="item" data-value= "idm">Idm</div>
+
+<div class="item" data-value= "indian">Indian</div>
+
+<div class="item" data-value= "indie">Indie</div>
+
+<div class="item" data-value= "indie-pop">Indie Pop</div>
+
+<div class="item" data-value= "industrial">Industrial</div>
+
+<div class="item" data-value= "iranian">Iranian</div>
+
+<div class="item" data-value= "j-dance">J Dance</div>
+
+<div class="item" data-value= "j-idol">J Idol</div>
+
+<div class="item" data-value= "j-pop">J Pop</div>
+
+<div class="item" data-value= "j-rock">J Rock</div>
+
+<div class="item" data-value= "jazz">Jazz</div>
+
+<div class="item" data-value= "k-pop">K Pop</div>
+
+<div class="item" data-value= "kids">Kids</div>
+
+<div class="item" data-value= "latin">Latin</div>
+
+<div class="item" data-value= "latino">Latino</div>
+
+<div class="item" data-value= "malay">Malay</div>
+
+<div class="item" data-value= "mandopop">Mandopop</div>
+
+<div class="item" data-value= "metal">Metal</div>
+
+<div class="item" data-value= "metal-misc">Metal Misc</div>
+
+<div class="item" data-value= "metalcore">Metalcore</div>
+
+<div class="item" data-value= "minimal-techno">Minimal Techno</div>
+
+<div class="item" data-value= "movies">Movies</div>
+
+<div class="item" data-value= "mpb">Mpb</div>
+
+<div class="item" data-value= "new-age">New Age</div>
+
+<div class="item" data-value= "new-release">New Release</div>
+
+<div class="item" data-value= "opera">Opera</div>
+
+<div class="item" data-value= "pagode">Pagode</div>
+
+<div class="item" data-value= "party">Party</div>
+
+<div class="item" data-value= "philippines-opm">Philippines Opm</div>
+
+<div class="item" data-value= "piano">Piano</div>
+
+<div class="item" data-value= "pop">Pop</div>
+
+<div class="item" data-value= "pop-film">Pop Film</div>
+
+<div class="item" data-value= "post-dubstep">Post Dubstep</div>
+
+<div class="item" data-value= "power-pop">Power Pop</div>
+
+<div class="item" data-value= "progressive-house">Progressive House</div>
+
+<div class="item" data-value= "psych-rock">Psych Rock</div>
+
+<div class="item" data-value= "punk">Punk</div>
+
+<div class="item" data-value= "punk-rock">Punk Rock</div>
+
+<div class="item" data-value= "r-n-b">R N B</div>
+
+<div class="item" data-value= "rainy-day">Rainy Day</div>
+
+<div class="item" data-value= "reggae">Reggae</div>
+
+<div class="item" data-value= "reggaeton">Reggaeton</div>
+
+<div class="item" data-value= "road-trip">Road Trip</div>
+
+<div class="item" data-value= "rock">Rock</div>
+
+<div class="item" data-value= "rock-n-roll">Rock N Roll</div>
+
+<div class="item" data-value= "rockabilly">Rockabilly</div>
+
+<div class="item" data-value= "romance">Romance</div>
+
+<div class="item" data-value= "sad">Sad</div>
+
+<div class="item" data-value= "salsa">Salsa</div>
+
+<div class="item" data-value= "samba">Samba</div>
+
+<div class="item" data-value= "sertanejo">Sertanejo</div>
+
+<div class="item" data-value= "show-tunes">Show Tunes</div>
+
+<div class="item" data-value= "singer-songwriter">Singer Songwriter</div>
+
+<div class="item" data-value= "ska">Ska</div>
+
+<div class="item" data-value= "sleep">Sleep</div>
+
+<div class="item" data-value= "songwriter">Songwriter</div>
+
+<div class="item" data-value= "soul">Soul</div>
+
+<div class="item" data-value= "soundtracks">Soundtracks</div>
+
+<div class="item" data-value= "spanish">Spanish</div>
+
+<div class="item" data-value= "study">Study</div>
+
+<div class="item" data-value= "summer">Summer</div>
+
+<div class="item" data-value= "swedish">Swedish</div>
+
+<div class="item" data-value= "synth-pop">Synth Pop</div>
+
+<div class="item" data-value= "tango">Tango</div>
+
+<div class="item" data-value= "techno">Techno</div>
+
+<div class="item" data-value= "trance">Trance</div>
+
+<div class="item" data-value= "trip-hop">Trip Hop</div>
+
+<div class="item" data-value= "turkish">Turkish</div>
+
+<div class="item" data-value= "work-out">Work Out</div>
+
+<div class="item" data-value= "world-music">World Music</div>
