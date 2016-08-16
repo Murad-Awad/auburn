@@ -188,7 +188,9 @@
     <div class="jumbotron">
         <h2>{{title}} By {{artist}}</h2>
         <form>
-            <input type="text" class="form-control" placeholder="What genre would you like to explore?" id="genre" size="31" />
+            <div id="genre_search">
+                <input id="genre" size="31" class="typeahead form-control" type="text" placeholder="What genre would you like to explore?"/>
+            </div>
             <div id="results2">
                 <button class="btn btn-default" id="getSongs">Find Music</button>
             </div>
@@ -221,7 +223,8 @@
 </script>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.1/handlebars.min.js"></script>
- <script src="js/jquery.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/typeahead.bundle.js"></script> 
 <script src="js/bootstrap.min.js"></script>
 <script src="js/Backend.js"></script>
 </body>
