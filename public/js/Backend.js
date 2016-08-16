@@ -384,6 +384,15 @@ z            }
         if (selectSong === true) {
             var songData = { title: target.getAttribute("songid"), artist: target.getAttribute("artistname") };
             resultsPlaceholder2.innerHTML = template2(songData);
+            $('#genre_search .typeahead').typeahead({
+              hint: true,
+              highlight: true,
+              minLength: 1
+          },
+          {
+              name: 'genre_list',
+              source: substringMatcher(genre_list)
+          }); 
             document.getElementById('getSongs').addEventListener('click', function () {
             getSongFeatures(songID);
             getNewTracks(acousticness, dance, energy, instrumentalness, key, liveness, loudness, mode, speechiness, tempo, time_signature, valence, document.getElementById("genre").value.toString());
@@ -397,6 +406,15 @@ z            }
             window.artistDataID = artistDataID;
             var songData = { title: target.getAttribute("songid"), artist: target.getAttribute("artistname") };
             resultsPlaceholder2.innerHTML = template2(songData);
+             $('#genre_search .typeahead').typeahead({
+      hint: true,
+      highlight: true,
+      minLength: 1
+    },
+    {
+      name: 'genre_list',
+      source: substringMatcher(genre_list)
+    }); 
             document.getElementById('getSongs').addEventListener('click', function () {
             getArtistFeatures(artistDataID);
             getNewTracks(acousticness, dance, energy, instrumentalness, key, liveness, loudness, mode, speechiness, tempo, time_signature, valence, document.getElementById("genre").value.toString());
@@ -418,14 +436,6 @@ z            }
     }, false);
     <!-- This is the problem one I swear>
 
-    document.getElementById('genre_search .typeahead').typeahead({
-      hint: true,
-      highlight: true,
-      minLength: 1
-    },
-    {
-      name: 'genre_list',
-      source: substringMatcher(genre_list)
-    }); 
+   
 
 })();
